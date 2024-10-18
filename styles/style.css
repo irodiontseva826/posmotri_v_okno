@@ -209,7 +209,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 23px;
   width: 100%;
   height: 100%;
 }
@@ -230,10 +230,13 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 30px;
   height: 298px;
   padding-bottom: 3px;
   overflow-y: auto;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .content__card-link {
